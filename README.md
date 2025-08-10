@@ -3,18 +3,18 @@
 This repository contains a **manual quality assurance (QA) project** performed on the Yes Planet cinema website.  
 The goal of the project was to evaluate core functionalities of the site, identify defects, and provide structured documentation for test cases and results.
 
-## 📌 Project Overview
+##  Project Overview
 The project focused on testing key user journeys and functionalities, including:
 - Changing cinema location on the website
 - User registration and login
 - Movie selection and ticket booking process
 - Seat confirmation and payment flow
 
-## 📂 Repository Contents
+##  Repository Contents
 - **Yes Planet Project.pdf** – Detailed STR (System Test Report) summarizing the execution of all test cases, pass/fail results, and defect descriptions.
 - **STD Tables.xlsx** – Full STD (System Test Design) documentation containing all test cases, expected results, and execution outcomes.
 
-## 🛠 Testing Scope
+##  Testing Scope
 The tests covered **8 main STD tables**:
 
 | Module                  | Total Test Cases | Passed | Failed |
@@ -29,7 +29,7 @@ The tests covered **8 main STD tables**:
 | Customer details        | 11               | 11     | 0      |
 | Payment form            | 15               | 15     | 0      |
 
-## ❗ Key Defects Found
+##  Key Defects Found
 Some examples of the most critical issues identified:
 - Incorrect cinema search results when entering certain city names or postal codes.
 - Registration allowed duplicate email addresses.
@@ -38,7 +38,7 @@ Some examples of the most critical issues identified:
 - Calendar on movie selection page not functioning properly.
 - Missing ID verification in ticket selection process.
 
-## ✅ Testing Methodology
+##  Testing Methodology
 - **Type:** Manual Testing
 - **Approach:** Positive & Negative test scenarios
 - **Documentation:** STD & STR based on ISTQB principles
